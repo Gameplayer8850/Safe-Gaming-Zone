@@ -1,0 +1,43 @@
+{
+        "author": "Gameplayer8850",
+        "colors": {
+        "background": "",
+        "chat": {
+            "admin": "",
+            "ambassador": "",
+            "host": "#e20220",
+            "cohost": "#a321b7",
+            "manager": "#11b219",
+            "bouncer": "#eaf20e",
+            "residentdj": "#ef7e04"
+        },
+            "footer": "#15edde",
+            "header": "#15847c"
+        },
+        "css": {
+            "font": [],
+            "import": [],
+            "rule": {}
+        },
+        "images": {
+            "background": "http://i.imgur.com/tkw0FBp.jpg",
+            "booth": "",
+            "icons": {
+                "admin": "",
+                "ambassador": "",
+                "host": "",
+                "cohost": "",
+                "manager": "",
+                "bouncer": "",
+                "residentdj": ""
+            },
+            "playback": ""
+        },
+        "rules": {
+            "allowAutojoin": "true",
+            "allowAutorespond": "true",
+            "allowAutowoot": "true",
+            "allowEmotes": "true",
+            "allowShowingMehs": "false"
+        }
+}

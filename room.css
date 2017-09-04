@@ -20,7 +20,6 @@
     display: inline-block;
     top: -6px;
 }
-
 #grab .top:after {
     content: "BIERE";
     position: relative;
@@ -32,4 +31,28 @@
     position: relative;
     display: inline-block;
     top: -6px;
-	
+}
+#playlist-button {
+	background: #ff8100;
+}
+#playlist-import, 
+#playlist-create {
+	 background: #211B1A;
+}
+#waitlist .header,
+.app-right .friends .list-header {
+	background: #120F0E;
+}
+#waitlist .list .user,
+.app-right .friends {
+    background: #120F0E;
+}
+#user-lists .header,
+#waitlist .header,
+.app-right .friends .list-header {
+	background: #120F0E;
+}
+#waitlist .list .user,
+.app-right .friends {
+    background: #120F0E;
+}

@@ -16,7 +16,7 @@
         },
         "css": {
             "import": [
-            ""
+            "https://rawgit.com/Gameplayer8850/Bezfrajernik/master/room"
         ]
         },
         "images": {

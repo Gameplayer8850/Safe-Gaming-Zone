@@ -15,9 +15,9 @@
             "header": ""
         },
         "css": {
-            "font": [],
-            "import": [],
-            "rule": {}
+            "import": [
+            ""
+        ]
         },
         "images": {
             "background": "http://i.imgur.com/tkw0FBp.jpg",

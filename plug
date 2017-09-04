@@ -11,8 +11,8 @@
             "bouncer": "#eaf20e",
             "residentdj": "#ef7e04"
         },
-            "footer": "#832887",
-            "header": ""
+            "footer": "",
+            "header": "#832887"
         },
         "css": {
             "font": [],

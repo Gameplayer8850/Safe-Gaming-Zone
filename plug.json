@@ -11,8 +11,8 @@
             "bouncer": "#eaf20e",
             "residentdj": "#ef7e04"
         },
-            "footer": "",
-            "header": ""
+            "footer": "#6d5187",
+            "header": "#6d5187"
         },
         "css": {
             "import": [

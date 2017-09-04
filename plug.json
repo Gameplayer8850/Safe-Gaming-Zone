@@ -1,5 +1,5 @@
 {
-        "author": "Gameplayer8850",
+        "author": "Gameplayer8850, Mikey Wazowsky",
         "colors": {
         "background": "",
         "chat": {
@@ -16,7 +16,7 @@
         },
         "css": {
             "import": [
-            "https://rawgit.com/Gameplayer8850/Bezfrajernik/master/room"
+            "https://rawgit.com/Gameplayer8850/Bezfrajernik/master/room.css"
         ]
         },
         "images": {

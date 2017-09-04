@@ -1,6 +1,7 @@
-#app-menu.in-room, 
-#footer, 
-#search, 
+/* Nie przyznaje się do tego ~ Mikey */
+#app-menu.in-room,
+#footer,
+#search,
 #video-only-dj {
 	 background: #6d5187;
 }
@@ -9,7 +10,7 @@
 	background: #6d5187;
 }
 
-.app-header #header-panel-bar .selected, 
+.app-header #header-panel-bar .selected,
 .app-header #history-button.selected {
 	background: #6d5187;
 }

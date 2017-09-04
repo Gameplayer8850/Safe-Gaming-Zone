@@ -32,6 +32,11 @@
     display: inline-block;
     top: -6px;
 }
+#grab .top span,
+#woot .top span,
+#meh .top span {
+    display: none !important;
+}
 #playlist-button {
 	background: #ff8100;
 }

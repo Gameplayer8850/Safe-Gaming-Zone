@@ -14,3 +14,22 @@
 .app-header #history-button.selected {
 	background: #6d5187;
 }
+#woot .top:after {
+    content: "KOZAK";
+    position: relative;
+    display: inline-block;
+    top: -6px;
+}
+
+#grab .top:after {
+    content: "BIERE";
+    position: relative;
+    display: inline-block;
+    top: -6px;
+}
+#meh .top:after {
+    content: "BUUUUU";
+    position: relative;
+    display: inline-block;
+    top: -6px;
+	

@@ -59,7 +59,8 @@
 #chat .welcome {
     color: #f73636;
 }
-#chat .from.staff .un, #chat .moderation, .is-staff .name {
+#chat .from.staff .un, #chat .moderation, .is-staff .name,
+#user-rollover.is-staff .info .role span {
     color: #f73636;
 }
 #chat .mention.is-dj, #chat .mention.is-staff { 

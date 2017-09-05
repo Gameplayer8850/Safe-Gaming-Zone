@@ -1,5 +1,14 @@
 {
     "author": "Mikey Wazowsky",
+    "colors": {
+        "chat": {
+            "host": "f73636",
+            "cohost": "f73636",
+            "manager": "f73636",
+            "bouncer": "f73636",
+            "residentdj": "f73636"
+        }
+    },
     "css": {
         "import": [
             "https://rawgit.com/Gameplayer8850/Bezfrajernik/master/room.css"

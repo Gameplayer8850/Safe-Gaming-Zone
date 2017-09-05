@@ -1,18 +1,40 @@
-/* Nie przyznaje się do tego ~ Mikey */
-#app-menu.in-room,
-#footer,
-#search,
-#video-only-dj {
-	 background: #6d5187;
+/* Góra */
+.app-header,
+#app-menu,
+#plugcubed,
+#history-button {
+    background: rgba(0, 0, 0, 0.50);
+}
+.header-panel-button.selected {
+    background-color: rgba(34, 34, 34, 0.5);
 }
 
-.app-header #history-button {
-	background: #6d5187;
+/* Dół */
+#footer {
+    background: rgba(0, 0, 0, 0.50);
+}
+#playlist-button {
+    background: linear-gradient(to bottom,rgba(172, 118, 255, 0.7) 0,rgba(146, 90, 255, 0.7) 100%);
 }
 
-.app-header #header-panel-bar .selected,
-.app-header #history-button.selected {
-	background: #6d5187;
+/* Przycisk od kolejki */
+#dj-button {
+    background: rgba(0, 0, 0, 0.75);
+}
+#dj-button .left {
+    background: linear-gradient(to bottom,rgba(2, 106, 134, 0.5) 0,rgba(20, 17, 35, 0.5) 100%);
+}
+#dj-button.is-leave .left, #dj-button.is-quit .left {
+    background: linear-gradient(to bottom,rgba(255, 61, 0, 0.5) 0,rgba(177, 29, 0, 0.5) 100%);
+}
+#dj-button.is-full .left, #dj-button.is-locked .left {
+    background: rgba(255, 0, 0, 0.35);
+}
+/* Woot, Grab, Meh */
+#grab .top span,
+#woot .top span,
+#meh .top span {
+    display: none !important;
 }
 #woot .top:after {
     content: "KOZAK";
@@ -27,40 +49,34 @@
     top: -6px;
 }
 #meh .top:after {
-    content: "BUUUUU";
+    content: "BUUU";
     position: relative;
     display: inline-block;
     top: -6px;
+}   
+
+/* administracja + chat */
+#chat .from.staff .un, #chat .moderation, .is-staff .name {
+    color: rgb(247,54,54);
 }
-#grab .top span,
-#woot .top span,
-#meh .top span {
-    display: none !important;
+#chat .mention.is-dj, #chat .mention.is-staff { 
+    background: linear-gradient(135deg,#f73636 0,#0a0a0a 13%,#0a0a0a 100%)
 }
-#playlist-button {
-	background: #ff8100;
+#chat .mention.is-dj:nth-child(2n+1), #chat .mention.is-staff:nth-child(2n+1) {
+    background: linear-gradient(135deg,#f73636 0,#111317 13%,#111317 100%);
 }
-#playlist-import, 
-#playlist-create {
-	 background: #211B1A;
+#user-lists .header .button.staff.selected {
+    border-bottom: 1px solid #f73636;
 }
-#waitlist .header,
-.app-right .friends .list-header {
-	background: #120F0E;
+
+/* Poprawki i usprawnienia */
+.social-menu .signup,
+#app-menu .android-badge,
+#app-menu .iphone-badge {
+    display: none; /*ukrycie zbugowanych/brzydkich przycisków*/
 }
-#waitlist .list .user,
-.app-right .friends {
-    background: #120F0E;
-}
-#user-lists .header,
-#waitlist .header,
-.app-right .friends .list-header {
-	background: #120F0E;
-}
-#waitlist .list .user,
-.app-right .friends {
-    background: #120F0E;
-}
-#plugcubed{
-background: #6d5187;
+
+/* ikony */
+.icon {
+    background-image: url('https://raw.githubusercontent.com/Gameplayer8850/Bezfrajernik/master/img/icons.png');
 }

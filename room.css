@@ -56,8 +56,11 @@
 }   
 
 /* administracja + chat */
+#chat .welcome {
+    color: #f73636;
+}
 #chat .from.staff .un, #chat .moderation, .is-staff .name {
-    color: rgb(247,54,54);
+    color: #f73636;
 }
 #chat .mention.is-dj, #chat .mention.is-staff { 
     background: linear-gradient(135deg,#f73636 0,#0a0a0a 13%,#0a0a0a 100%)

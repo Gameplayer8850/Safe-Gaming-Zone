@@ -85,10 +85,8 @@
     background-image: url('https://raw.githubusercontent.com/Gameplayer8850/Bezfrajernik/master/img/icons.png');
 }
 
-/* Dla Mareczka */
-#chat [data-cid^="13065138"] .icon-chat-subscriber:before{
-    content: url('https://i.imgur.com/jhWdmoe.png');
-    position: relative;
-    top: 0px;
-    left: -79px;
+/* Mareczek jesteś upośledzony chyba skoro wysyłasz mi css-a od jakiegoś boba nie sprawdzając wcześniej czy on działa*/
+.fromID-13065138 .from.staff .icon.icon-chat-silver-subscriber {
+    background: url('https://i.imgur.com/jhWdmoe.png');
+    left: -2px;
 }

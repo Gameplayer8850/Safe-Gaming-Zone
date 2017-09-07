@@ -84,3 +84,11 @@
 .icon {
     background-image: url('https://raw.githubusercontent.com/Gameplayer8850/Bezfrajernik/master/img/icons.png');
 }
+
+/* Dla Mareczka */
+#chat [data-cid^="13065138-"] .icon-chat-subscriber:before{
+    content: url('https://i.imgur.com/jhWdmoe.png');
+    position: relative;
+    top: 0px;
+    left: -79px;
+}

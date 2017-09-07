@@ -86,7 +86,7 @@
 }
 
 /* Dla Mareczka */
-#chat [data-cid^="13065138-"] .icon-chat-subscriber:before{
+#chat [data-cid^="13065138"] .icon-chat-subscriber:before{
     content: url('https://i.imgur.com/jhWdmoe.png');
     position: relative;
     top: 0px;

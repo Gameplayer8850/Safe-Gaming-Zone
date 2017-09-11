@@ -37,19 +37,19 @@
     display: none !important;
 }
 #woot .top:after {
-    content: "KOZAK";
+    content: "SUPER";
     position: relative;
     display: inline-block;
     top: -6px;
 }
 #grab .top:after {
-    content: "BIERE";
+    content: "DAWAJ";
     position: relative;
     display: inline-block;
     top: -6px;
 }
 #meh .top:after {
-    content: "BUUU";
+    content: "SŁABE";
     position: relative;
     display: inline-block;
     top: -6px;

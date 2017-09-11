@@ -15,7 +15,7 @@
         ]
     },
     "images": {
-        "background": "https://rawgit.com/Gameplayer8850/Safe-Gaming-Zone/master/img/t%C5%82o.jpg"
+        "background": "https://rawgit.com/Gameplayer8850/Safe-Gaming-Zone/master/img/background.jpg"
     },
     "rules": {
         "allowAutojoin": "true",

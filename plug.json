@@ -2,8 +2,8 @@
     "author": "Mikey Wazowsky, Gameplayer8850",
     "colors": {
         "chat": {
-            "host": "f7ce1b",
-            "cohost": "e74aef",
+            "host": "f71b1b",
+            "cohost": "#9c22b",
             "manager": "91ef1f",
             "bouncer": "fcf12a",
             "residentdj": "00FFFF"

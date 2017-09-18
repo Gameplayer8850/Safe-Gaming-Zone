@@ -30,47 +30,22 @@
 #dj-button.is-full .left, #dj-button.is-locked .left {
     background: rgba(255, 0, 0, 0.35);
 }
-/* Woot, Grab, Meh */
-#grab .top span,
-#woot .top span,
-#meh .top span {
-    display: none !important;
-}
-#woot .top:after {
-    content: "SUPER";
-    position: relative;
-    display: inline-block;
-    top: -6px;
-}
-#grab .top:after {
-    content: "DAWAJ";
-    position: relative;
-    display: inline-block;
-    top: -6px;
-}
-#meh .top:after {
-    content: "SŁABE";
-    position: relative;
-    display: inline-block;
-    top: -6px;
-}   
 
-/* administracja + chat */
+/* chat + adminitracja */
 #chat .welcome {
     color: #11e2f9;
 }
-#chat .from.staff .un, #chat .moderation, .is-staff .name,
-#user-rollover.is-staff .info .role span {
-    color: #f73636;
+.icon-chat-dj + span {
+    color: #17fefe !important;
 }
-#chat .mention.is-dj, #chat .mention.is-staff { 
-    background: linear-gradient(135deg,#f73636 0,#0a0a0a 13%,#0a0a0a 100%)
+.icon-chat-bouncer + span {
+    color: #eee203 !important;
 }
-#chat .mention.is-dj:nth-child(2n+1), #chat .mention.is-staff:nth-child(2n+1) {
-    background: linear-gradient(135deg,#f73636 0,#111317 13%,#111317 100%);
+.icon-chat-manager + span {
+    color: #78cf0e !important;
 }
-#user-lists .header .button.staff.selected {
-    border-bottom: 1px solid #f73636;
+.icon-chat-cohost + span, .icon-chat-host + span {
+    color: #f71b1b !important;
 }
 
 /* Poprawki i usprawnienia */
@@ -79,14 +54,21 @@
 #app-menu .iphone-badge {
     display: none; /*ukrycie zbugowanych/brzydkich przycisków*/
 }
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+    background: #0C0E11;
+}
+::-webkit-scrollbar-thumb {
+    background: #282c35; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #323742; 
+}
 
 /* ikony */
 .icon {
     background-image: url('https://rawgit.com/Gameplayer8850/Safe-Gaming-Zone/master/img/icons.png');
-}
-
-/*Ta ikona od raka*/
-.fromID-13065138 .from.staff .icon.icon-chat-silver-subscriber {
-    background: url('https://i.imgur.com/jhWdmoe.png');
-    left: -2px;
 }

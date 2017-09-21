@@ -72,3 +72,9 @@
 .icon {
     background-image: url('https://rawgit.com/Gameplayer8850/Safe-Gaming-Zone/master/img/icons.png');
 }
+
+/* Ikona promotera*/
+.fromID-13065138 .from.staff .icon.icon-chat-silver-subscriber {
+    background: url('https://i.imgur.com/jhWdmoe.png');
+    left: -2px;
+}

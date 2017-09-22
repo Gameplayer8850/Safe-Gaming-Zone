@@ -78,3 +78,20 @@
     background: url('https://i.imgur.com/jhWdmoe.png');
     left: -2px;
 }
+
+/*Marihuana*/
+.id-28209493>.badge-box>i.bdg,
+#chat-messages .fromID-28209493 .bdg {
+    background-image: url("http://i144.photobucket.com/albums/r173/manuelito_05/th_marihuana.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#user-rollover.id-28209493 .badge-box>i.bdg {
+    border-radius: 6px;
+    background-image: url("http://i144.photobucket.com/albums/r173/manuelito_05/th_marihuana.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

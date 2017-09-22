@@ -1,0 +1,59 @@
+{
+    "room": "[PL] Prohibicja.xyz ANY GENRE",
+    "author": "Gameplayer8850",
+    "icon": "https://raw.githubusercontent.com/Gameplayer8850/Safe-Gaming-Zone/master/img/icons.png",
+    "css": "https://rawgit.com/Gameplayer8850/Safe-Gaming-Zone/master/room.css",
+    "rules": {
+        "allowAutorespond": true,
+        "allowAutowoot": true,
+        "allowAutojoin": true,
+        "allowAutograb": true,
+        "allowSmartVote": true,
+        "allowEmotes": true,
+        "allowShowingMehs": false,
+        "forceSmartVote": false
+    },
+    "ccc": {
+        "admin": null,
+        "ambassador": "#90FF00",
+        "host": "#f54142",
+        "cohost": "#f54142",
+        "manager": "#78cf0e",
+        "bouncer": "#eee203",
+        "rdj": "#17fefe",
+        "subscriber": null,
+        "silversubscriber": null,
+        "friend": null,
+        "user": null
+    },
+    "images": {
+        "background": "https://raw.githubusercontent.com/Gameplayer8850/Safe-Gaming-Zone/master/img/background1.png",
+        "playback": null,
+        "admin": null,
+        "ambassador": null,
+        "host": null,
+        "cohost": null,
+        "manager": null,
+        "bouncer": null,
+        "rdj": null,
+        "subscriber": null,
+        "silversubscriber": null
+    },
+    "emotes": {
+        "emote_name": null
+    },
+    "autocomplete" : {
+            "!ping": 0,
+            "!p3": 0,
+            "!rcs": 0,
+            "!uptime": 0,
+            "!discord": 0,
+            "!pogoda": 0,
+            "!gif": 0,
+            "!skip": 2,
+            "!mute": 2,
+            "!ban": 2,
+            "!ls": 2,
+            "!clearchat":3 
+    }
+}

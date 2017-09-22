@@ -44,16 +44,11 @@
     },
     "autocomplete" : {
             "!ping": 0,
-            "!p3": 0,
-            "!rcs": 0,
             "!uptime": 0,
-            "!discord": 0,
-            "!pogoda": 0,
             "!gif": 0,
             "!skip": 2,
             "!mute": 2,
             "!ban": 2,
-            "!ls": 2,
             "!clearchat":3 
     }
 }

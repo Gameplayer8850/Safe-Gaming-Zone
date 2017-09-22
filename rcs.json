@@ -45,7 +45,7 @@
     "autocomplete" : {
             "!ping": 0,
             "!uptime": 0,
-            "!gif": 0,
+            "!gif": 1,
             "!skip": 2,
             "!mute": 2,
             "!ban": 2,

@@ -15,6 +15,7 @@
     },
     "ccc": {
         "admin": null,
+        "promotor": null,
         "ambassador": "#90FF00",
         "host": "#f54142",
         "cohost": "#f54142",

@@ -35,18 +35,6 @@
 #chat .welcome {
     color: #11e2f9;
 }
-.icon-chat-dj + span {
-    color: #17fefe !important;
-}
-.icon-chat-bouncer + span {
-    color: #eee203 !important;
-}
-.icon-chat-manager + span {
-    color: #78cf0e !important;
-}
-.icon-chat-cohost + span, .icon-chat-host + span {
-    color: #f54142 !important;
-}
 
 /* Poprawki i usprawnienia */
 .social-menu .signup,
